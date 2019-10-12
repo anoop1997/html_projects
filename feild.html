@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Project </title><!--title-->
+  </head>
+  <body>
+    <form action="https://www.google.com/" method="post">
+    <fieldset><!--begin_feild-->
+       <legend>YOUR DETAILS</legend><!--heading-->
+       <label for="NAME">NAME:</label><!--name feild-->
+       <input type="text" name="NAME" value="" placeholder="name" size="30" maxlength="20" ><br/>
+       <label for="email">EMAIL:</label><!--email feild-->
+       <input type="email" name="email" value="" placeholder="email@.com" size="31" maxlength="20" ><br/>
+    </fieldset><br/><!--end feild-->
+    <fieldset>
+       <legend> YOUR REVIEW</legend>
+       <label for="Hear_us">How do you hear about us ?</label>
+       <select><!--multiple select box-->
+        <option value="Google">Google</option>
+        <option value="Reddit">Reddit</option>
+        <option value="Qoura">Qoura</option>
+      </select><!--end select box-->
+     <br><br>
+       <label for="visit_radio">would you visit again ?</label>
+       <br>
+       <input type="radio" name="Yes" value="Yes"/>Yes<!--begin radio-->
+       <input type="radio" name="No" value="No"/>No
+       <input type="radio" name="Maybe" value="Maybe"/>Maybe
+       <br><br>
+       <!--text area-->
+       <textarea name="name" value ="comments"rows="6" cols="60"></textarea>
+       <br>
+       <input type="checkbox" name="sign_up" value="sign_up">sign me up for email updates
+        <br><br>
+        <input type="submit" name="Review"><!--submit name-->
+
+    </fieldset>
+
+    </form>
+  </body>
+</html>
