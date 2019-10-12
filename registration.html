@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"><!--Begin-->
+    <title>Registration form</title><!--title-->
+  </head>
+  <body  style="background-color: lavenderblush;""><!--body_background-->
+    <form class="" action="index.html" method="post"><!--button_Action-->
+
+
+    <h1 style="margin-left: 500px"><strong>Registration Form</strong></h1><!--heading-->
+   <table>
+            <tr><!--Firstname-->
+                   <td><label for="firstname"><h3>Firstname</h3></label></td>
+                   <td><input type="text" name="fname" value="" size="25" maxlength="200" required=required><td>
+            </tr>
+            <tr><!--lastname-->
+                  <td><label for="lastname"><h3>lastname</h3></label></td>
+                  <td><input type="text" name="lname" value="" size="25" maxlength="200"required=required><td>
+             </tr>
+             <tr><!--username-->
+                 <td><label for="username"><h3>Username</h3></label></td>
+                 <td><input type="text" name="uname" value="" size="25" maxlength="200"required=required><td>
+            </tr>
+            <tr><!--password-->
+                <td><label for="Password"><h3>Password</h3></label></td>
+                <td><input type="password" name="pass" value="" size="25" maxlength="200"required=required><td>
+           </tr>
+
+           <tr><!--email-->
+               <td><label for="email"><h3>Email</h3></label></td>
+               <td><input type="email" name="email" value="" size="25" maxlength="200"required=required><td>
+          </tr>
+          <tr><!--Mobile_no-->
+              <td><label for="Mobile_no"><h3>Mobile NO</h3></label></td>
+              <td><input type="text" name="mnub" value="" size="25" maxlength="200"required=required><td>
+         </tr>
+         <tr><!--section_city-->
+           <td><label for="city"><h3>City</h3></label></td>
+           <td><select name="city">
+               <option value="Default">select</option>
+               <option value="ktm">Kottayam</option>
+               <option value="Klm">Kollam</option>
+               <option value="trvm">Trivandrum</option>
+               <option value="ALP">Alappuzha</option>
+          </td>
+          </tr>
+          <tr><!--submit-->
+             <td><input type="submit" name="Register" value="Register" style="
+    background-color: green;"></td>
+             <td><a href="#">Backt to home</a></td>
+          </tr>
+
+
+  </table>
+  </form>
+  </body>
+      <style media="screen">
+        table,tr,td
+        {
+          margin-left: 500px
+        }
+      </style><!--End-->
+</html>
