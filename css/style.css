@@ -1,0 +1,81 @@
+.main{
+  background-image: url(https://images.pexels.com/photos/257840/pexels-photo-257840.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: 'Ubuntu',sans-serif;
+
+}
+h1
+{
+  font-family: 'Ubuntu',sans-serif;
+  margin-top: 30%;
+  color: purple;
+  padding-top: 2%;
+  font-weight: 200%;
+}
+.box
+{
+  width: 30%;
+  height:50%%;
+  margin: 10% auto;
+  background-color: white;
+  border-radius: 20px;
+    font-family: 'Ubuntu',sans-serif;
+    padding-bottom: 1%;
+    border: 2px;
+    border-color: yellow;
+
+}
+.un{
+  text-align: center;
+  padding: 1%;
+  width:auto;
+  height: auto;
+  border-radius: 13px;
+  border: 5px solid rgb(211,211,211);
+    font-family: 'Ubuntu',sans-serif;
+}
+.pass{
+      text-align: center;
+   padding: 1%;
+  width:auto;
+  height: auto;
+  border-radius: 13px;
+  border: 5px solid rgb(211,211,211);
+  font-family: 'Ubuntu',sans-serif;
+}
+.submit{
+  cursor: pointer;
+  margin-top: 4%;
+  size:20px;
+  height: 32px;
+  width: 124px;
+  font-family: 'Ubuntu',sans-serif;
+  border-radius: 46%;
+  background-color: purple;
+  border: 5px solid rgb(211,211,211);
+  color: white;
+
+}
+.pass:hover{
+    border-color:rgb(221,160,221);
+  }
+  .un:hover{
+  border-color:	rgb(221,160,221);
+}
+.submit:hover{
+  border-color:	rgb(221,160,221);
+}
+a:hover{
+  color: red;
+}
+.box:hover{
+  border-color: purple;
+}
+
+a{
+  margin-left: 31%;
+  text-decoration: none;
+    font-family: 'Ubuntu',sans-serif;
+
+}
