@@ -1,0 +1,79 @@
+
+.details
+{
+ background-color:grey;
+ color:white;
+
+}
+.img1
+{
+  width: fit-content;
+}
+
+.img2
+{
+  width: fit-content;
+}
+
+
+.main
+{
+  width: auto;
+  margin: 20px auto 20px auto;
+  margin-left: 39px;
+  margin-right: 29px;
+  background-color: #ffffff;
+  border: 2px solids #000000;
+}
+.jveg
+{
+  position: absolute;
+  left:31%;
+  width:55%;
+  top:34%;
+}
+
+.sauces
+{
+  position: absolute;
+  left:31%;
+  width:60%;
+  top:77%;
+}
+
+.popular
+{
+  position: absolute;
+  left:67%;
+  width:28%;
+  top:34%;
+  border-left: 2px solid #eeeeee;
+}
+.contact
+{
+  position: absolute;
+  left:67%;
+  width:60%;
+  top:84%;
+  border-left: 1px solid #eeeeee;
+}
+h1,h2,h3{
+  font-family: Georgia,serif;
+  font-size: 25px;
+}
+p{
+  font-family: Georgia;
+  font-size: 17px;
+}
+footer{
+
+  color: #ffffff;
+  height: 30px;
+  background-color: #aeaca8;
+}
+.foot
+{
+  margin-bottom: -30px;
+  background-color: grey;
+  color: white;
+}
